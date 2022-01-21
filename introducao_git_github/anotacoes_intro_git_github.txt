@@ -1,0 +1,20 @@
+
+
+
+Git Init Inicia o repositório.
+
+
+
+Unmodified - Ainda não sofreu modificação;
+Modified -Sofreu alguma modificação;
+Staged – (Git Add) move o arquivo de untracked para um estado em que ele fica aguardando para receber alguma alteração. Passa a ser rastreado.  
+Quando o arquivo é adicionado (git add) ou modificado e adiciona novamente com (git add), ele é movido para stage.
+Com o commit, os arquivos são adicionados ao repositório local. Quando for realizar envio para repositório remoto, somente o que estiver com o commit, vai ser enviado. 
+
+
+
+git status – Mostra o estado dos arquivos;
+git add nomeArquivo
+gitadd*
+gitadd.
+git commit -m “mensagem...”
